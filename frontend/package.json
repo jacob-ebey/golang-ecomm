@@ -1,0 +1,56 @@
+{
+  "name": "golang-ecomm-frontend",
+  "dependencies": {
+    "@apollo/react-hooks": "3.1.3",
+    "@rooks/use-input": "3.4.0",
+    "apollo-boost": "0.4.4",
+    "apollo-cache-inmemory": "1.6.3",
+    "apollo-client": "2.6.4",
+    "apollo-link-context": "1.0.19",
+    "apollo-upload-client": "11.0.0",
+    "bootstrap": "4.3.1",
+    "braintree-web-drop-in-react": "1.1.0",
+    "currency.js": "1.2.2",
+    "graphql": "14.5.8",
+    "isomorphic-fetch": "2.2.1",
+    "jwt-decode": "2.2.0",
+    "markdown-it": "10.0.0",
+    "open-iconic": "1.1.1",
+    "react": "16.10.2",
+    "react-bootstrap": "1.0.0-beta.14",
+    "react-dom": "16.10.2",
+    "react-loading-overlay": "1.0.1",
+    "react-markdown": "4.2.2",
+    "react-markdown-editor-lite": "0.5.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "2.1.8",
+    "react-stepper-horizontal": "1.0.11",
+    "react-use": "13.1.0",
+    "react-use-form-state": "0.12.0",
+    "use-debounce": "3.1.0",
+    "use-query-params": "0.4.3"
+  },
+  "devDependencies": {
+    "colors": "1.4.0",
+    "eslint-config-react-app": "^5.0.2",
+    "eslint-plugin-flowtype": "^3.13.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "node-sass": "4.13.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "proxy": "http://localhost:8080"
+}

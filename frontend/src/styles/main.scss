@@ -1,0 +1,26 @@
+// Override default variables before the import
+$body-bg: #ffffff;
+$jumbotron-bg: #ffffff;
+
+// Import Bootstrap and its default variables
+@import "~bootstrap/scss/bootstrap.scss";
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev {
+  display: flex;
+  justify-content: center;
+}
+
+html, body, #root, #goto-here {
+  height: 100%;
+}
+
+#goto-here {
+  display: flex;
+  flex-direction: column;
+}
+
+._loading_overlay_wrapper {
+  flex: 1;
+}
